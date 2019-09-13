@@ -21,3 +21,4 @@ elem_trace = anim.read_elem_trace(r'C:\Users\zaryd\source\repos\RSK_C++\elem_tra
 #my_creater = YoungAnimation(tabluax, traces, 66)
 #my_creater.create_animation()
 
+print(2)
