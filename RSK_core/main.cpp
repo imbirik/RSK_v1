@@ -35,9 +35,9 @@ void two_dim_vector_to_python_format(const vector <vector <int> >& v, ofstream& 
 }
 
 int main() {
-	ofstream trace_out("C:/Users/zaryd/source/repos/RSK_C++/traces.txt");
-	ofstream elem_trace_out("C:/Users/zaryd/source/repos/RSK_C++/elem_traces.txt");
-	freopen("C:/Users/zaryd/source/repos/RSK_C++/tabluax.txt", "w", stdout);
+	ofstream trace_out("C:/Users/zaryd/source/repos/RSK_v1/traces.txt");
+	ofstream elem_trace_out("C:/Users/zaryd/source/repos/RSK_v1/elem_traces.txt");
+	freopen("C:/Users/zaryd/source/repos/RSK_v1/tabluax.txt", "w", stdout);
 	//freopen("err.txt", "w", stderr);
 	cout.precision(6);
 
