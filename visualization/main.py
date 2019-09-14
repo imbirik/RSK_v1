@@ -17,7 +17,7 @@ elem_trace = anim.read_elem_trace(r'C:\Users\zaryd\source\repos\RSK_C++\elem_tra
 #plots.speed_plot(100)
 #myanim = anim.BumpingTraceAnimation(elem_trace)
 #myanim.create_animation()
-
+print(1)
 #my_creater = YoungAnimation(tabluax, traces, 66)
 #my_creater.create_animation()
 
