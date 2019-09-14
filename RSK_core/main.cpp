@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+﻿#define _CRT_SECURE_NO_WARNINGS
 
 #include <vector>
 #include <iostream>
@@ -10,6 +10,7 @@
 #include <ctime>
 #include <fstream>
 using namespace std;
+
 
 const size_t MAXN = (size_t)1000000;                 //size of YT
 const double EPS = 1e-8;
