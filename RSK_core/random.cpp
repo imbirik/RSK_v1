@@ -1,4 +1,7 @@
-
+#ifdef _DEBUG
+#include <crtdbg.h>
+#define _CRTDBG_MAP_ALLOC
+#endif
 #include <random>
 #include <ctime>
 #include "random.h"

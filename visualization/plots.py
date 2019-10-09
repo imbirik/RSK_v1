@@ -32,4 +32,20 @@ def tableau_line_plot(tableau, row, accuracy=1000):
     #plt.hist(data,bins=accuracy)
     plt.legend()
     plt.show()
-     
+def x_trace(trace, N, step = 100, color = 'blue'):
+    x = []
+    it = 0
+    tableau_size = N 
+    for pair in trace:
+        val = pair[0]
+        size = pair[1]
+        while(it < size):
+            x.append(val/(2*np.sqrt(tableau_size)))
+            #if x[-1] > 2:
+                #x = x[:-1]
+            tableau_size += step
+            it += step
+        it = it-size
+    x = np.asarray(x)
+    x_len = x.shape[0]
+    plt.scatter(x=range(x_len),y=x, c=color, linewidths=0.01, alpha=0.01)

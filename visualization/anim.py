@@ -23,8 +23,11 @@ def read_elem_trace(filename):
     with open(filename, 'r') as f:
         elem_trace = json.loads(f.read())
     return elem_trace
-
-
+ 
+def read_json(filename):
+    with open(filename, 'r') as f:
+        data = json.loads(f.read())
+    return data
 # def draw_PQ(tableaux, i, fig, ax, Q_tableau=False, show=True):
 #     P = tabluax[i][0]
 #     Q = tabluax[i][1]

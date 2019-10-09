@@ -129,7 +129,9 @@
     <ClCompile Include="young.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="my_time.h" />
     <ClInclude Include="permutations.h" />
+    <ClInclude Include="py_out.h" />
     <ClInclude Include="random.h" />
     <ClInclude Include="young.h" />
   </ItemGroup>
